@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>How many challenges to get the my lovely ship ?</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<style type="text/css">
+body {font-family: serif;}
+h1 {font-size: x-large;}
+
+p {margin-left: 1em; line-height: 2em;}
+#DROP_RATE {width: 4em;}
+#RESULT {border-collapse: collapse; border: gray solid 2px; margin-left: 3em;}
+#RESULT th {text-align: left; padding: 6px; border: gray solid 1px;}
+#RESULT td {text-align: right; padding: 6px 6px 6px 12px; border: gray solid 1px;}
+</style>
+
+<script type="text/javascript" src="./lib/hmc.js"></script>
+</head>
+
+<body onload="document.getElementById('DROP_RATE').focus();">
+<h1>How many challenges to get the my lovely ship ?</h1>
+<p>When the drop rate is <input type="text" value="0" id="DROP_RATE" onchange='calculate()' /> %. <input type="submit" value="calc" onclick="calculate(); document.getElementById('DROP_RATE').focus();"</p>
+
+<table id="RESULT">
+<caption>result</caption>
+<tbody>
+<tr id="20P"><th>20%</th><td id="20P_RESULT">0</td></tr>
+<tr id="50P"><th>50%</th><td id="50P_RESULT">0</td></tr>
+<tr id="80P"><th>80%</th><td id="80P_RESULT">0</td></tr>
+<tr id="90P"><th>90%</th><td id="90P_RESULT">0</td></tr>
+<tr id="95P"><th>95%</th><td id="95P_RESULT">0</td></tr>
+<tr id="98P"><th>98%</th><td id="98P_RESULT">0</td></tr>
+<tr id="99P"><th>99%</th><td id="99P_RESULT">0</td></tr>
+<tr id="99_999P"><th>99.999%</th><td id="99_999P_RESULT">0</td></tr>
+</tbody>
+</table>
+</body>
+</html>
