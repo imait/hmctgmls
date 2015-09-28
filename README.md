@@ -19,12 +19,12 @@ hmc.py is a command line tool. hmc.py demands one command line argument as drop 
 >
 > When the drop rate is 2.5%.
 >
-> result
-> 20%    :    9
-> 50%    :   28
-> 80%    :   64
-> 90%    :   91
-> 95%    :  119
-> 98%    :  155
-> 99%    :  182
-> 99.999%:  455"
+> result  
+> 20%    :    9  
+> 50%    :   28  
+> 80%    :   64  
+> 90%    :   91  
+> 95%    :  119  
+> 98%    :  155  
+> 99%    :  182  
+> 99.999%:  455
