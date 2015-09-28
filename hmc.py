@@ -1,3 +1,18 @@
+# -*- coding: utf-8-unix; mode: python -*-
+"""hmctgmls: How many challenges to get the my lovely ship ?
+
+hmctgmls is a short script to get the number of trials to win a rare drop item.
+
+Copyright (c) 2015 IMAI Toshiyuki
+
+Author: 2015 IMAI Toshiyuki
+
+This software is released under the MIT License.
+http://opensource.org/licenses/mit-license.php
+"""
+__author__ = 'IMAI Toshiyuki'
+__version__ = '1.0'
+
 import sys
 from decimal import *
 
