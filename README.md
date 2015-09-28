@@ -7,7 +7,7 @@ include a python script and a html with JavaScript.
 
 ## Usage
 
-### Python
+### Python version
 
 hmc.py is a command line tool. hmc.py demands one command line argument as drop rate.
 
@@ -28,3 +28,19 @@ hmc.py is a command line tool. hmc.py demands one command line argument as drop 
 > 98%    :  155  
 > 99%    :  182  
 > 99.999%:  455
+
+### JavaScript version
+
+Open index.html.
+
+#### Demonstration
+
+* [How many challenges to get the my lovely ship ?](http://www.kototone.jp/game/kancolle/utilities/hmc.html "How many challenges to get the my lovely ship ?")
+
+## Author
+
+* IMAI Toshiyuki
+
+Copyright (c) 2015 IMAI Toshiyuki
+
+This software is released under the MIT License, see LICENSE.
