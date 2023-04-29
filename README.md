@@ -35,7 +35,7 @@ Open index.html.
 
 #### Demonstration
 
-* [How many challenges to get the my lovely ship ?](http://www.kototone.jp/game/kancolle/utilities/hmc.html "How many challenges to get the my lovely ship ?")
+* [How many challenges to get the my lovely ship ?](http://imait.github.io/hmctgmls/ "How many challenges to get the my lovely ship ?")
 
 ## Author
 
